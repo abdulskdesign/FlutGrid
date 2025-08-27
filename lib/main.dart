@@ -14,10 +14,11 @@ class MyApp extends StatelessWidget {
     final colorScheme = ColorScheme(
     brightness: Brightness.light,
     primary: Color(0xFF712cf9), onPrimary: Color(0xFFFFFFFF),
-    secondary: Color(0x403c5bcd), onSecondary: Color(0xFFFFFFFF),
+    secondary: Color(0xFF646464), onSecondary: Color(0xFFFFFFFF),
     error: Color(0xFFB3261E), onError: Color(0xFFFFFFFF),
     background: Color(0xFFFFFBFE), onBackground: Color(0xFF323232),
     surface: Color(0xFFE7E7E7), onSurface: Color(0xFF323232),
+    surfaceTint: Colors.transparent,
   );
   
     return MaterialApp(
